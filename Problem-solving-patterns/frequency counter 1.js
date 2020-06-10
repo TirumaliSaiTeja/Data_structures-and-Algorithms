@@ -13,7 +13,7 @@ function same(arr1, arr2){
     //if the length are matched, then we itterate over arrays
     for(let i=0; i<arr1.length; i++){
         //if the given condition is true, then it squares the array 1
-        let correctIndex = arr2.indexOf(arr[i]**2)
+        let correctIndex = arr2.indexOf(arr1[i]**2)
         // here if its don't find any correct value pair and index it will return false
         if(correctIndex === -1){
             return false;
