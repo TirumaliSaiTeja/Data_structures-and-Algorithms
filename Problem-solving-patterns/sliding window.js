@@ -17,3 +17,13 @@ function maxSubarraySum(arr, num) {
   }
   return max;
 }
+
+//Refactored Approach
+
+//Time complexity - o(n)
+
+function maxSubarraySum(arr, num) {
+  if (num > arr.length) {
+    return null;
+  }
+}
