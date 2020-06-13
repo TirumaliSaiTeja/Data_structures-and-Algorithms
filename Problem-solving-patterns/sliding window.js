@@ -28,7 +28,22 @@ function maxSubarraySum(arr, num) {
 //Time complexity - o(n)
 
 function maxSubarraySum(arr, num) {
-  if (num > arr.length) {
-    return null;
+  // here we assign constant values for max sum and temp sum
+  let maxSum = 0;
+  let tempSum = 0;
+  //here we add only first three numbers in an array and we will store them in maxSum
+  if (arr.length < num) return null;
+  for (let i = 0; i < num; i++) {
+    maxSum += arr[i];
   }
+  //we store maxSum into tempSum variable
+  tempSum = maxSum;
+
+  for (let i = num; i < arr.length; i++) {
+    //here we add the alternative number and delete the first number
+    tempSum = tempSum - arr[i - num] + arr[i];
+    //We return the number which is larger
+    maxSum = Math.max(maxSum, tempSum);
+  }
+  return maxSum;
 }
