@@ -1,3 +1,7 @@
+// how recursive function works?
+// Invoke the same function with a different input until you reach your base case
+// Base Case - the condition when the recursion ends.
+
 // counting the values and printing
 
 // normal way
