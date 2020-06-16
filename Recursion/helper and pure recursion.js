@@ -1,3 +1,5 @@
+//Helper recursion
+
 function collectOddvalues(arr) {
   //here we want to collect all odd calues into an array
   let result = [];
@@ -19,3 +21,31 @@ function collectOddvalues(arr) {
   helper(arr);
   return result;
 }
+
+// Pure Recursion
+
+function collectOddvalues(arr) {
+  let newArr = [];
+
+  if (arr.length === 1) {
+    return newArr;
+  }
+
+  if (arr[0] % 2 !== 0) {
+    newArr.push(arr[0]);
+  }
+
+  newArr = newArr.concat(collectOddvalues(arr.slice(1)));
+  return newArr;
+}
+
+// Tips
+
+// 1. for arrays, use methods like slice, the spread
+// operator, and concat that make copies of arrays so
+// you do not mutate them
+
+// 2. Remember that strings are immutable so you will
+// need to use methods like slice, substr, or substring to make copies of strings
+
+//3. To make copies of objects use object.assign or the spread operator
