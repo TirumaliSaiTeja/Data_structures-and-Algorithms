@@ -15,10 +15,13 @@ function areThereDuplicates() {
 // frequency counter
 
 function areThereDuplicates() {
+  // declaring empty object for collection
   let collection = {};
   for (let val in arguments) {
+    // checking value in argument
     collection[arguments[val]] = collection[arguments[val]] || 0;
   }
+  //condition for key value
   for (let key in collection) {
     if (collection[key] > 1) return true;
   }
