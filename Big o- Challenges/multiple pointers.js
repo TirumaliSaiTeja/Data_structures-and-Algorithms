@@ -15,17 +15,23 @@
 // we are defining average pair with array and a number
 
 function averagePair(arr, num) {
+  // here the we are declaring the start and end
   var start = 0
   var end = arr.length - 1
   while (start < end) {
+    // we are calculating the average of start and end
     let avg = (arr[start] + arr[end]) / 2
+    // if the average is equal to number then it returns true
     if (avg === num) {
       return true
+      // if the avg is less than the number, it will increment start
     } else if (avg < num) {
       start++
+      // otherwise it will decrement the end pointer
     } else {
       end--
     }
   }
+  //if everything, fails it will return false
   return false
 }
