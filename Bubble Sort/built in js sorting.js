@@ -22,8 +22,8 @@
 
 // String Compare
 
-// function stringCompare(str1, str2) {
-//   return str1 - str2;
+// function compareByLen(str1, str2) {
+//   return str1.length - str2.length;
 // }
 
-// ['sai', 'teja', 'tirumali'].sort(stringCompare)
+// ['sai', 'teja', 'tirumali'].sort(compareByLen)
