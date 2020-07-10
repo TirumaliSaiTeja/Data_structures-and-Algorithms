@@ -3,6 +3,14 @@
 // Similar to bubble sort, but instead of first placing
 // large values into sorted position, it places small values into sorted position
 
+// time complexity of selection sort is o(n^2).
+
+//  compared to bubble sort, selection sort is fast
+// on bubble sort, it will swap each and every value till it reaches
+// the highest number in array
+
+// In selection sort it will sort only once.
+
 function Selection(arr) {
   // New Es,
 
