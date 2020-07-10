@@ -1,5 +1,7 @@
 // Bubble sort
 
+// Time complexity of bubble sort is n^2
+
 // A sorting algorithm where the largest values bubble up to the top
 
 // Es05
