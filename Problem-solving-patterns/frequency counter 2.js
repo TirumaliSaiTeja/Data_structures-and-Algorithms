@@ -1,7 +1,7 @@
 //Refactored Approach
 
 //Using different loops is better than using nested loop
-// nested loop will take n^2 but looping will take 2(n)
+// nested loop will take n^2 but looping will take o(n)
 
 function same(arr1, arr2){
     if(arr1.length!==arr2.length){
