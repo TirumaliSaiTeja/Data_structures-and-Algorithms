@@ -1,8 +1,16 @@
 // this pattern uses objects or sets to collect values/frequencies of values
 
-// this often avoid the need for nested loops or o(n^2) operations with arrays/strings
+// this often avoid the need for nested loops or o(n^2) 
+// operations with arrays/strings
+
+
+/*write a function called same, it holds two arrays. The function should return
+true if every value in the array has its corresponding value squared
+in the second array. The frequency of values must be the same*/
 
 //Naive pattern
+
+//Time Complexity- N^2
 
 function same(arr1, arr2){
     //here we check length of two arrays
@@ -23,3 +31,5 @@ function same(arr1, arr2){
     }
     return true;
 }
+
+[1,2,3], [1,4,9]
