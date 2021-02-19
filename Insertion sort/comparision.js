@@ -6,7 +6,7 @@
 
 // 0verview
 
-// Sorting is fundamental
+// Sorting is fundamental in the
 // Bubble sort, selection sort and insertion sort are all
 // roughly equivalent
 // All have average time complexities that are quadratic
