@@ -4,7 +4,7 @@
 
 // Linear search
 
-// it will start checking the entire array
+// it will start checking the entire array 
 
 function Search(arr, val) {
   for (var i = 0; i < arr.length; i++) {
