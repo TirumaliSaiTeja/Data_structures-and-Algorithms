@@ -2,7 +2,7 @@
 
 // What is sorting?
 
-// Sorting is the process of rearranging the items in a collection
+// Sorting is the process of rearranging the items in a collection of given array
 // (e.g.array) so that the items are in some kind of order
 
 // Examples
