@@ -9,7 +9,7 @@
 // on bubble sort, it will swap each and every value till it reaches
 // the highest number in array
 
-// In selection sort it will sort only once.
+// In selection sorting it will sort only once.
 
 function Selection(arr) {
   // New Es,
