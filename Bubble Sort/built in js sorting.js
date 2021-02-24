@@ -1,6 +1,6 @@
 // Built in javascript sorting
 
-// Telling javascript how to sort
+// Telling javascript how to do sorting
 
 // The built-in sort method accepts an optional comparator function
 // You can use this comparator function to tell javascript how you
