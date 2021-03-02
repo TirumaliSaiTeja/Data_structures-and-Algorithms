@@ -1,6 +1,6 @@
 // how recursive function works?
 // Invoke the same function with a different input until you reach your base case
-// Base Case - the condition when the recursion ends.
+// Base Case - the condition where the recursion condition ends.
 
 // counting the values and printing
 
@@ -20,7 +20,7 @@ function countDown(num) {
 
 countDown(6);
 
-// using resurceive function
+// using resurceive function which will give us the output effectively
 
 function countDown(num) {
   // we check the condition is true or false
