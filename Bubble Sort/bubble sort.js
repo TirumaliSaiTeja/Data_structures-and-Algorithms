@@ -16,7 +16,7 @@
 // Sorting is an incredibly common task, so its good to know
 // how it works
 // There are many different ways to sort things, and different techniques
-// have their own advantages and disadvantages
+// have their own props and cons
 
 // Objectives
 
