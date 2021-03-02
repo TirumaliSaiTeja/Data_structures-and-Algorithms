@@ -17,7 +17,7 @@ function factorial(num) {
 
 // Common Recursive pitfall
 
-// Where things go wrong
+// Where things go wrong in the recursion
 
 // 1. No Base Case
 // 2. Forgetting to return or returning the wrong thing
