@@ -10,6 +10,13 @@
 
 // Example of call stack
 
+//Recursion function
+
+// Recursion is a process of calling itself. A function that
+// calls itself is called a recursive function.
+
+
+
 function takeShower() {
   return "Showering";
 }
@@ -35,3 +42,17 @@ wakeUp();
 // you are used to functions being pushed on the call stack
 // and popped off when they are done
 // When we write recursive functions, we keep pushing new functions onto the call stack
+
+
+// syntax
+
+// function recurse() {
+  // function code
+  // recurse();
+  // function code
+//}
+
+// a recursive function must have a condition to stop calling
+// itself. Otherwise, the function is called indefinitely.
+
+
