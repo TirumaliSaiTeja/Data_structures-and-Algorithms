@@ -55,4 +55,19 @@ wakeUp();
 // a recursive function must have a condition to stop calling
 // itself. Otherwise, the function is called indefinitely.
 
+// once the condition is met, the function stops calling itself.
+// this is called a base condition
+
+// Examples 1:
+
+// function countDown(number) {
+//   console.log(number);
+
+//   const newNum = number-1;
+
+//   if (newNum > 0) {
+//     countDown(newNum);
+//   }
+// }
+
 
