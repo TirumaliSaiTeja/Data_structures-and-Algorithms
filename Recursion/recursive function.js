@@ -10,3 +10,19 @@ function sumRange(num) {
   // then we return the total value
   return num + sumRange(num - 1);
 }
+
+// What is recursion
+
+// A process (a function in our case) that calls itself
+
+// Why should i know?
+// Its everywhere
+// json.parse/json.stringify
+
+
+
+
+
+
+
+
