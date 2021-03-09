@@ -18,6 +18,43 @@ function sumRange(num) {
 // Why should i know?
 // Its everywhere
 // json.parse/json.stringify
+// document.getElemntById and DOM traversal algorithms
+// Object traversal
+
+
+// How function works
+
+// In almost all program languages, there is a built in data 
+// structure that manages what happens when the functions are
+// invoked
+// The functions are maintained by the call stack
+
+// the call stack
+// Its a stack data structure
+// Any time a function is invoked it is placed (pushed)
+// on the top of the call stack
+// When javascript sees the return keyword or when the function ends
+// the compiler will remove (pop)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
